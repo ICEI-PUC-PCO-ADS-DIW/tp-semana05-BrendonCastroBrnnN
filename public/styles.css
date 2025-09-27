@@ -182,6 +182,119 @@ input[type="submit"]:hover {
     margin: 0;
 }
 
+/* Página de detalhes */
+.titulo-pagina {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.detalhes-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f5e9d7;
+  border: 3px solid #f58220;
+  border-radius: 12px;
+  text-align: center;
+  color: #003c7e;
+}
+
+.detalhes-container h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #003c7e;
+}
+
+.detalhes-container img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.detalhes-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.detalhes-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f58220;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.detalhes-container a:hover {
+  background-color: #003c7e;
+}
+
+/* Página Home - Cards */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: #f5e9d7;
+  border: 3px solid #f58220;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  color: #003c7e;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card a {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #f58220;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.card a:hover {
+  background-color: #003c7e;
+}
+
+/* Efeito no card inteiro */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 /* Menu Mobile */
 #menu-toggle {
     display: none;

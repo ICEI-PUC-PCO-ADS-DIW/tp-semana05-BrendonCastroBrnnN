@@ -14,32 +14,43 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Brendon Guilherme Castro
+- Matricula: 897493
+- Proposta de projeto escolhida: Site de Viagens - Próximo Destino
+- Breve descrição sobre seu projeto: Site com ideias de lugares para viajar, com fotos e breve descrição dos lugares indicados.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home-page1](homepage1.png)
+![Home-page2](homepage2.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Detalhes Rio](pagedetalhesrio.png)
+![Detalhes Paris](pagedetalhesparis.png)
+![Detalhes New York](pagedetalhesny.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
+[
   {
     "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
+    "titulo": "Rio de Janeiro",
+    "descricao": "Cidade maravilhosa com praias incríveis.",
+    "imagem": "./img/rio.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Paris",
+    "descricao": "A capital da França, famosa pela Torre Eiffel.",
+    "imagem": "./img/paris.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Nova York",
+    "descricao": "A cidade que nunca dorme.",
+    "imagem": "./img/ny.jpg"
   }
 ]
 ```
