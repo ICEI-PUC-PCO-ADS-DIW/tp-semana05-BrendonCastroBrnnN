@@ -21,14 +21,14 @@ Leia o enunciado completo no Canvas.
 
 ## Print da Home-Page
 
-![Home-page1](homepage1.png)
-![Home-page2](homepage2.png)
+![Home-page1](.img/homepage1.png)
+![Home-page2](.img/homepage2.png)
 
 ## Print da página de detalhes do item
 
-![Detalhes Rio](pagedetalhesrio.png)
-![Detalhes Paris](pagedetalhesparis.png)
-![Detalhes New York](pagedetalhesny.png)
+![Detalhes Rio](.img/pagedetalhesrio.png)
+![Detalhes Paris](.img/pagedetalhesparis.png)
+![Detalhes New York](.img/pagedetalhesny.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
