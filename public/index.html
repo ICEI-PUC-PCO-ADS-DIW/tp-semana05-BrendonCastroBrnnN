@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Próximo Destino</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
 </head>
+
 <body>
-    <h1>Olá mundo</h1>
+    <header>
+        <div class="logoprincipal">
+            <img src="./imagens/LogoSite.png" width="180" alt="Logo do site">
+        </div>
+
+        <div id="title">
+            <h1>PRÓXIMO DESTINO</h1>
+        </div>
+
+        <!-- Checkbox para controlar o menu -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Passeios</a></li>
+                <li><a href="#">Viagens</a></li>
+                <li><a href="#">Cruzeiros</a></li>
+                <li><a href="#" id="ofertas-btn">Ofertas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2><span>O seu próximo destino te espera!</span></h2>
+            <p>Entraremos em contato com a melhor opção para você!<br>
+                Viagens em promoção pra você conhecer o Brasil e o mundo!</p>
+
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+
+        <article class="banner">
+            <img src="./imagens/Banner.png" alt="Banner Principal Site">
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>Próximo Destino - 2025 - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
+
 </html>
