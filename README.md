@@ -11,17 +11,17 @@
 
 ## Print da Home-Page
 
-![Home-page1](public\img\homepage1.png)
+![Home-page1](public/homepage1.png)
 
-![Home-page2](public\imghomepage2.png)
+![Home-page2](public/homepage2.png)
 
 ## Print da página de detalhes do item
 
-![Detalhes Rio](public\img\pagedetalhesrio.png)
+![Detalhes Rio](public/pagedetalhesrio.png)
 
-![Detalhes Paris](public\img\pagedetalhesparis.png)
+![Detalhes Paris](public/pagedetalhesparis.png)
 
-![Detalhes New York](public\img\pagedetalhesny.png)
+![Detalhes New York](public/pagedetalhesny.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
